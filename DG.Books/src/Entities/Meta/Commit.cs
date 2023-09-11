@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DG.Books.Entities.Meta
+﻿namespace DG.Books.Entities.Meta
 {
-    internal class Commit
+    public class Commit
     {
+        public string BranchId { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }
