@@ -1,4 +1,4 @@
-﻿namespace DG.Books.Entities
+﻿namespace DG.Books.Entities.Book
 {
     public class Character
     {
