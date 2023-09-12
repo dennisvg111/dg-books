@@ -1,8 +1,7 @@
-﻿namespace DG.Books.Entities.Meta
+﻿namespace DG.Books.Entities.Book
 {
-    public class Commit
+    public class Scene
     {
-        public string BranchId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
     }
