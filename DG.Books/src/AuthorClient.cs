@@ -2,7 +2,10 @@
 {
     public class AuthorClient
     {
-        //TODO: manage branches/commits
+        private readonly BranchManager _branchManager;
+
+        public BranchManager Branches => _branchManager;
+
         //TODO: internals
     }
 }
