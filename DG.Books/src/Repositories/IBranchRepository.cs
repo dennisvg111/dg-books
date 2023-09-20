@@ -8,14 +8,10 @@ namespace DG.Books.Repositories
     {
         List<Branch> GetBranches();
 
-        void UpdateSelected(string branchName, bool isSelected);
+        void SetSelectedBranch(string branchName);
         Branch GetSelectedBranch();
 
-        void AddBranchIfNotExists(string branchName);
-        void RemoveBranch(string branchName);
-
         bool TryGetCommit(Uulsid id, out SavedCommit commit);
-        void AddCommitToBranch(string branchName, SavedCommit commit);
-        SavedCommit GetLastCommitFromBranch(string branchName);
+        void AddCommit(SavedCommit commit);
     }
 }
